@@ -128,7 +128,7 @@ fun StudentIdCard() {
         modifier = Modifier
             .fillMaxWidth()
             .padding(16.dp),
-        shape = RoundedCornerShape(16.dp),
+        shape = RoundedCornerShape(14.dp),
         colors = CardDefaults.elevatedCardColors(
             MaterialTheme.colorScheme.surfaceVariant.copy(alpha =0.3f)
         )
