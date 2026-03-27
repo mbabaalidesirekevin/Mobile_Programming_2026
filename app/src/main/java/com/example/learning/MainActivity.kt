@@ -118,7 +118,7 @@ fun StudentIdCard(student: Student) {
             Button(
                 onClick = { isPresent = !isPresent }, // Toggle on every click
                 colors = ButtonDefaults.buttonColors(
-                    containerColor = if (isPresent) Color.Gray
+                    containerColor = if (isPresent) Color.Red
                     else MaterialTheme.colorScheme.primary
                 )
             ) {
